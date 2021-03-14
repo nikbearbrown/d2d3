@@ -3,26 +3,23 @@
 A well written and easy to use Python wrapper around the Twitter API.
 
 
-==========
-Installing
-==========
+## Installing
 
 You can install python-twitter using::
 
     $ pip install python-twitter
 
 
-==========
-Tutorials
-==========
+
+## Tutorials
+
 
     * 1_python-twitter_quick_start.ipynb  
 	   This should be the first notebook if unfamilar with the python-twitter library.
 	   
 	   
-------
-Models
-------
+
+## Models
 
 
 *python-twitter* is one of the many libraries that make it easy to query Twitter data.  
@@ -66,13 +63,11 @@ To read the documentation for any of these models, run::
 
     $ pydoc twitter.[model]
 
----
-API
----
+
+## API
+
 
 The API is exposed via the ``twitter.Api`` class.
-
-
 
 
 
@@ -100,7 +95,6 @@ To see if your credentials are successful::
     {"id": 16133, "location": "Boston", "name": "bear"}
     
 ```    
-
 
 There are many more API methods, Read the full API documentation either
 check out the documentation on [https://python-twitter.readthedocs.io](https://python-twitter.readthedocs.io)  
